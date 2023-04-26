@@ -1,0 +1,16 @@
+{
+  "name": "total-time-summ",
+  "version": "1.0.0",
+  "description": "Adds up the comments in laptime format and adds them to the name of the card",
+  "repository": "https://github.com/abteenz/trell-total-time.git",
+  "author": "abteenz <abteenz@gmail.com>",
+  "license": "MIT",
+  "source": "src/html/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
