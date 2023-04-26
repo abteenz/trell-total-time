@@ -1,4 +1,4 @@
-4358
+4361
 53C:\Users\abtee\trell-total-time\node_modules\get-port133269445903608058 1
 62C:\Users\abtee\trell-total-time\node_modules\@msgpackr-extract133269445897053018 1
 68C:\Users\abtee\trell-total-time\node_modules\source-map\package.json133269445862020000 0
@@ -11,7 +11,15 @@
 60C:\Users\abtee\trell-total-time\node_modules\chalk\readme.md133269445785790000 0
 80C:\Users\abtee\trell-total-time\node_modules\htmlparser2\lib\WritableStream.d.ts133269445846430000 0
 60C:\Users\abtee\trell-total-time\node_modules\source-map\dist133269445917018139 1
-36C:\Users\abtee\trell-total-time\dist133270118912469390 1
+36C:\Users\abtee\trell-total-time\dist133270145973101266 1
+69C:\Users\abtee\trell-total-time\node_modules\terser\lib\propmangle.js133269445817590000 0
+91C:\Users\abtee\trell-total-time\node_modules\@babel\highlight\node_modules\has-flag\license133269445883680000 0
+66C:\Users\abtee\trell-total-time\node_modules\dotenv-expand\LICENSE133269445811380000 0
+87C:\Users\abtee\trell-total-time\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js133269445827210000 0
+74C:\Users\abtee\trell-total-time\node_modules\source-map-support\LICENSE.md133269445839160000 0
+76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\AT.js133269445827810000 0
+62C:\Users\abtee\trell-total-time\node_modules\commander\typings133269445910277980 1
+42C:\Users\abtee\trell-total-time\.gitignore133270130692013894 0
 75C:\Users\abtee\trell-total-time\node_modules\@parcel\core\lib\assetUtils.js133269445787390000 0
 56C:\Users\abtee\trell-total-time\node_modules\cosmiconfig133269445932453029 1
 73C:\Users\abtee\trell-total-time\node_modules\@parcel\logger\lib\Logger.js133269445786030000 0
@@ -32,6 +40,10 @@
 94C:\Users\abtee\trell-total-time\node_modules\@parcel\reporter-dev-server\lib\ServerReporter.js133269445791370000 0
 56C:\Users\abtee\trell-total-time\node_modules\@jridgewell133269445897118039 1
 96C:\Users\abtee\trell-total-time\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.c133269445841550000 0
+74C:\Users\abtee\trell-total-time\node_modules\css-select\lib\procedure.d.ts133269445831660000 0
+87C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\features\offline-apps.js133269445827810000 0
+84C:\Users\abtee\trell-total-time\node_modules\utility-types\dist\utility-types.js.map133269445829280000 0
+40C:\Users\abtee\trell-total-time\src\html133270116535660863 1
 90C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\features\referrer-policy.js133269445827810000 0
 65C:\Users\abtee\trell-total-time\node_modules\source-map\README.md133269445862020000 0
 50C:\Users\abtee\trell-total-time\node_modules\json5133269445904012999 1
@@ -41,10 +53,6 @@
 101C:\Users\abtee\trell-total-time\node_modules\@parcel\optimizer-image\parcel-image.win32-x64-msvc.node133269445791510000 0
 67C:\Users\abtee\trell-total-time\node_modules\type-fest\package.json133269445840380000 0
 77C:\Users\abtee\trell-total-time\node_modules\nth-check\lib\esm\compile.js.map133269445858530000 0
-74C:\Users\abtee\trell-total-time\node_modules\css-select\lib\procedure.d.ts133269445831660000 0
-87C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\features\offline-apps.js133269445827810000 0
-84C:\Users\abtee\trell-total-time\node_modules\utility-types\dist\utility-types.js.map133269445829280000 0
-40C:\Users\abtee\trell-total-time\src\html133270116535660863 1
 79C:\Users\abtee\trell-total-time\node_modules\css-tree\lib\common\TokenStream.js133269445832990000 0
 77C:\Users\abtee\trell-total-time\node_modules\terser\lib\compress\inference.js133269445817590000 0
 76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\LC.js133269445827810000 0
@@ -68,10 +76,10 @@
 70C:\Users\abtee\trell-total-time\node_modules\supports-color\browser.js133269445806180000 0
 70C:\Users\abtee\trell-total-time\node_modules\csso\lib\replace\Value.js133269445836380000 0
 50C:\Users\abtee\trell-total-time\node_modules\chalk133269445902772980 1
-51C:\Users\abtee\trell-total-time\src\js\connector.js133269449320535397 0
+51C:\Users\abtee\trell-total-time\src\js\connector.js133270145882416779 0
 76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\CO.js133269445827810000 0
 85C:\Users\abtee\trell-total-time\node_modules\source-map-support\source-map-support.js133269445839160000 0
-51C:\Users\abtee\trell-total-time\src\html\index.html133269448475277956 0
+51C:\Users\abtee\trell-total-time\src\html\index.html133270144869424946 0
 54C:\Users\abtee\trell-total-time\node_modules\svgo\dist133269445917038018 1
 94C:\Users\abtee\trell-total-time\node_modules\@parcel\transformer-js\parcel-swc.darwin-x64.node133269445804660000 0
 66C:\Users\abtee\trell-total-time\node_modules\entities\lib\index.js133269445885060000 0
@@ -153,8 +161,6 @@
 68C:\Users\abtee\trell-total-time\node_modules\lines-and-columns\build133269445911318055 1
 76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\CY.js133269445827810000 0
 73C:\Users\abtee\trell-total-time\node_modules\nth-check\lib\esm\compile.js133269445858530000 0
-66C:\Users\abtee\trell-total-time\node_modules\htmlnano\CHANGELOG.md133269445821160000 0
-56C:\Users\abtee\trell-total-time\node_modules\is-arrayish133269445903942995 1
 97C:\Users\abtee\trell-total-time\node_modules\@babel\helper-validator-identifier\lib\identifier.js133269445885620000 0
 54C:\Users\abtee\trell-total-time\node_modules\@trysound133269445896628021 1
 76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\AR.js133269445827810000 0
@@ -338,6 +344,8 @@
 76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\CN.js133269445827810000 0
 53C:\Users\abtee\trell-total-time\node_modules\escalade133269445903542981 1
 53C:\Users\abtee\trell-total-time\node_modules\has-flag133269445903758180 1
+66C:\Users\abtee\trell-total-time\node_modules\htmlnano\CHANGELOG.md133269445821160000 0
+56C:\Users\abtee\trell-total-time\node_modules\is-arrayish133269445903942995 1
 53C:\Users\abtee\trell-total-time\node_modules\mdn-data133269445907608100 1
 89C:\Users\abtee\trell-total-time\node_modules\@swc\helpers\lib\_interop_require_default.js133269445828310000 0
 55C:\Users\abtee\trell-total-time\node_modules\is-extglob133269445903817981 1
@@ -1012,11 +1020,6 @@
 65C:\Users\abtee\trell-total-time\node_modules\terser\lib\output.js133269445817590000 0
 64C:\Users\abtee\trell-total-time\node_modules\terser\lib\parse.js133269445817590000 0
 77C:\Users\abtee\trell-total-time\node_modules\@parcel\resolver-default\LICENSE133269445797700000 0
-69C:\Users\abtee\trell-total-time\node_modules\terser\lib\propmangle.js133269445817590000 0
-91C:\Users\abtee\trell-total-time\node_modules\@babel\highlight\node_modules\has-flag\license133269445883680000 0
-66C:\Users\abtee\trell-total-time\node_modules\dotenv-expand\LICENSE133269445811380000 0
-87C:\Users\abtee\trell-total-time\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js133269445827210000 0
-74C:\Users\abtee\trell-total-time\node_modules\source-map-support\LICENSE.md133269445839160000 0
 93C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\features\css-letter-spacing.js133269445827810000 0
 64C:\Users\abtee\trell-total-time\node_modules\terser\lib\scope.js133269445817590000 0
 88C:\Users\abtee\trell-total-time\node_modules\lmdb\node_modules\node-addon-api\LICENSE.md133269445842190000 0
@@ -2668,8 +2671,6 @@
 73C:\Users\abtee\trell-total-time\node_modules\commander\typings\index.d.ts133269445785950000 0
 94C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\features\input-file-multiple.js133269445827810000 0
 67C:\Users\abtee\trell-total-time\node_modules\commander\package.json133269445785950000 0
-76C:\Users\abtee\trell-total-time\node_modules\caniuse-lite\data\regions\AT.js133269445827810000 0
-62C:\Users\abtee\trell-total-time\node_modules\commander\typings133269445910277980 1
 72C:\Users\abtee\trell-total-time\node_modules\@parcel\runtime-browser-hmr133269445905092976 1
 64C:\Users\abtee\trell-total-time\node_modules\color-name\index.js133269445847990000 0
 68C:\Users\abtee\trell-total-time\node_modules\color-name\package.json133269445847990000 0
@@ -4356,4 +4357,6 @@
 60C:\Users\abtee\trell-total-time\node_modules\.bin\terser.cmd133269445934672997 0
 72C:\Users\abtee\trell-total-time\node_modules\.bin\update-browserslist-db133269445934722991 0
 76C:\Users\abtee\trell-total-time\node_modules\.bin\update-browserslist-db.cmd133269445934722991 0
-47C:\Users\abtee\trell-total-time\dist\index.html133270118912438892 0
+54C:\Users\abtee\trell-total-time\dist\index.6d10912f.js133270145972986354 0
+58C:\Users\abtee\trell-total-time\dist\index.6d10912f.js.map133270145973086223 0
+47C:\Users\abtee\trell-total-time\dist\index.html133270145972976334 0

@@ -1,7 +1,7 @@
 console.log('Hello world!');
 
 window.TrelloPowerUp.initialize({
-    'card-badges': functions(t,opts){
+    'card-badges': function(t, opts) {
         //retun an arrray of card badges for the given card
     }
 });
