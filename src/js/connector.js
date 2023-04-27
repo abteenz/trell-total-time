@@ -1,24 +1,68 @@
-const t = window.TrelloPowerUp.iframe();
-console.log('ABTIN IS HERE!!!');
-t.render(async function () {
-  // Get all the card comments
-  const comments = await t.card('all').get('comments');
-  
-  // Filter comments with the format "00:00:00"
-  const filteredComments = comments.filter(comment => /^\d{2}:\d{2}:\d{2}$/.test(comment.data.text));
+var Promise = TrelloPowerUp.Promise;
 
-  // Sum up the values of the filtered comments
-  const sum = filteredComments.reduce((total, comment) => {
-    const time = comment.data.text.split(':').map(Number);
-    return total + (time[0] * 3600 + time[1] * 60 + time[2]);
-  }, 0);
+// Get all the comments on the card
+function getComments(t, card) {
+  return t
+    .rest('GET', `cards/${card.id}/actions`, {
+      filter: 'commentCard'
+    })
+    .then((actions) => {
+      return actions.map((action) => {
+        return action.data.text;
+      });
+    });
+}
 
-  // Get the current card title
-  const cardTitle = await t.card('name').get('name');
+// Parse and sum up the times in the comments
+function sumTimes(comments) {
+  let sum = 0;
+  comments.forEach((comment) => {
+    const timeRegex = /([0-9]+):([0-9]+):([0-9]+)/;
+    const matches = timeRegex.exec(comment);
+    if (matches !== null) {
+      const hours = parseInt(matches[1], 10);
+      const minutes = parseInt(matches[2], 10);
+      const seconds = parseInt(matches[3], 10);
+      const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+      sum += totalSeconds;
+    }
+  });
+  return sum;
+}
 
-  // Append the sum to the card title
-  const newTitle = `${cardTitle} | ${new Date(sum * 1000).toISOString().substr(11, 8)}`;
+// Update the card title with the sum of the times
+function updateCardTitle(t, card, sum) {
+  return t
+    .set('card', 'name', `${card.name} | ${formatTime(sum)}`)
+    .then(() => {
+      return t.closePopup();
+    });
+}
 
-  // Update the card title
-  return t.card('name').set({ name: newTitle });
+// Format seconds as HH:MM:SS
+function formatTime(seconds) {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const remainingSeconds = seconds % 60;
+  return `${hours.toString().padStart(2, '0')}:${minutes
+    .toString()
+    .padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+}
+
+TrelloPowerUp.initialize({
+  'card-buttons': function (t, options) {
+    return [
+      {
+        text: 'Sum Times',
+        callback: function (t) {
+          return t.card('id', 'name').then((card) => {
+            return getComments(t, card).then((comments) => {
+              const sum = sumTimes(comments);
+              return updateCardTitle(t, card, sum);
+            });
+          });
+        },
+      },
+    ];
+  },
 });
