@@ -1,5 +1,5 @@
 const t = window.TrelloPowerUp.iframe();
-
+console.log('ABTIN IS HERE!!!');
 t.render(async function () {
   // Get all the card comments
   const comments = await t.card('all').get('comments');
