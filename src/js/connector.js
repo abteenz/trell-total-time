@@ -1,6 +1,12 @@
 window.TrelloPowerUp.initialize({
   'card-badges': function(t, opts) {
     let cardName;
+    let today = new Date();
+    let yyyy = today.getFullYear();
+    let mm = String(today.getMonth() + 1).padStart(2, '0'); 
+    let dd = String(today.getDate()).padStart(2, '0'); 
+    let currentDate = `${yyyy}-${mm}-${dd}`;
+  
     return t.card('name')
       .get('name')
       .then(function(name) {
@@ -12,7 +18,9 @@ window.TrelloPowerUp.initialize({
             "Authorization": `Basic ${btoa('a93a1bdec1193f3e9da5036c4f0a2e5a:api_token')}`
           },
           body: JSON.stringify({
-            "description": cardName
+            "description": cardName,
+            "start_date": "2023-01-01",
+            "end_date": currentDate
           })  
         });
       })
