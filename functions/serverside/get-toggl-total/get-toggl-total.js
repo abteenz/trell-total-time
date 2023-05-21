@@ -20,6 +20,9 @@ exports.handler = async function(event, context) {
   
   return {
     statusCode: 200,
+    headers: {
+      "Access-Control-Allow-Origin": "*", // This header enables CORS
+    },
     body: JSON.stringify(data)
   };
 }
