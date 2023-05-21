@@ -13,7 +13,7 @@ window.TrelloPowerUp.initialize({
         cardName = name;
         // Instead of directly calling Toggl API, we call our server-side script
         // which will make the request to Toggl API and return the response.
-        return fetch(`/.netlify/functions/serverside/get-toggl-total/get-toggl-total?description=${encodeURIComponent(cardName)}&start_date=2023-01-01&end_date=${currentDate}`);
+        return fetch(`/functions/serverside/get-toggl-total/get-toggl-total?description=${encodeURIComponent(cardName)}&start_date=2023-01-01&end_date=${currentDate}`);
       })
       .then(response => response.json())
       .then(function(json) {
