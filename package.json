@@ -11,6 +11,7 @@
     "build": "parcel build"
   },
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "parcel": "^2.8.3"
   }
 }
