@@ -17,7 +17,7 @@ app.post('/toggl', async (req, res) => {
     }, {
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Basic ${Buffer.from('<email>:<password>').toString('base64')}`
+        'Authorization': `Basic ${Buffer.from('a93a1bdec1193f3e9da5036c4f0a2e5a:api_token').toString('base64')}`
       }
     });
 
